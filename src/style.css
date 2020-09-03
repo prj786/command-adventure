@@ -1,0 +1,78 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: arvo_bold;
+    src: url(./assets/fonts/Arvo-Bold.ttf);
+}
+
+@font-face {
+    font-family: arvo;
+    src: url(./assets/fonts/Arvo-Regular.ttf);
+}
+
+.game_container {
+    width: 800px;
+    height: 600px;
+    border: 1px solid;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#game_screen {
+    width: 800px;
+    height: 550px;
+    color: aliceblue;
+    background-color: #090a09;
+    font-size: 24px;
+    font-family: arvo_bold;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+}
+
+#game_logic {
+    padding: 12px;
+}
+
+#command_name {
+    width: 789px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    background: #4b4545;
+    color: darkgreen;
+    font-size: 24px;
+    outline: none;
+    font: arvo;
+}
+
+.input_commander {
+    position: relative;
+}
+
+#info_tab {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#command_screen {
+    padding: 15px;
+}
+
+.hints {
+    font-size: 16px;
+}
+
+.commands {
+    color: red;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.conversation {
+    color: #074d01;
+    margin-left: 30px;
+}
